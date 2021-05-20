@@ -1,0 +1,85 @@
+*{
+    left:0;
+    margin:0;
+}
+
+body{
+    width: 100%;
+    background:  linear-gradient(90deg, #40ddfe,#fe40dd) ;
+    background:fixed no-repeat cover;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.reproductor{
+    width: 400px;
+    height: 550px;
+    margin: 50px;
+    background: linear-gradient( #40ddfe,#fe40dd) ;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    filter: drop-shadow(10px 10px 3px #404040);
+    border-radius: 24px;
+
+
+}
+
+.reproductor .artista{
+    width: 200px;
+    margin: 30px 100px;
+
+}
+.reproductor .artista img{
+    width: 200px;
+    height: 250px;
+    filter: drop-shadow(6px 6px 3px #404040);
+    border-radius: 24px;
+    border:1px solid  #404040;
+}
+.reproductor .artista img:hover{
+
+}
+ h1{
+    font-size: 45px;
+    color: #000;
+    filter: drop-shadow(2px 2px 1px#40ddfe);
+ }
+h1:hover{
+    filter: drop-shadow(2px 2px 1px#fe40dd);
+    transition:0.3s;
+
+}
+ .reproductor .btn{
+    background: #fe40dd;
+    width: 84px;
+    height: 84px;
+    margin: 50px 157px;
+    border-radius: 100%;
+    box-shadow: 5px 5px 3px #404040;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index: 1;
+    
+ }
+
+
+ .reproductor .btn a{
+    width: 84px;
+    height: 84px;
+    margin: 20px 160px;
+    filter:  drop-shadow(0px 0px 20px #000);
+    position: absolute;
+    z-index: 2;
+ }
+
+ .hidden{
+     visibility: hidden;
+     transition:0.1s;
+ }
